@@ -1,0 +1,6 @@
+/* Base */
+@import '@/app/styles/_reset.scss';
+@import '@/app/styles/_vars.scss';
+@import '@/app/styles/_base.scss';
+@import '@/app/styles/_utils.scss';
+@import '@/app/styles/_containers.scss';

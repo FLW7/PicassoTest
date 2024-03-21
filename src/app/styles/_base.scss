@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--text-color);
+  font-family: var(--font-main);
+  @media (any-hover: hover) {
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--text-blue);
+      border-radius: 3px;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: var(--text-gray);
+      border-radius: 3px;
+    }
+  }
+}
